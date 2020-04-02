@@ -1,4 +1,4 @@
-function openCity(evt, tabName) {
+function openTab(evt, tabName) {
     let i;
     let tabcontent;
     let tablinks;

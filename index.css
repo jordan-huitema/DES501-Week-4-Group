@@ -7,7 +7,8 @@
   --accent-2: #efc081;
   --highlight-1: #eedb86;
   --background: #f8f5f2;
-
+  --buttonHover: #bc0a0f;
+  --buttonActive: #d1d0d0;
   /* 
     use example:
     background-color: var(--background);
@@ -22,7 +23,7 @@ body {
 #contentContainer {
   width: auto;
   height: auto;
-  margin: 15em 15em 15em 15em;
+  margin: 0em 1em 0em 15em;
   background-color: var(--background);
 }
 .tab {
@@ -41,10 +42,10 @@ body {
   font-size: 17px;
 }
 .tab button:hover {
-  background-color: var(--background);
+  background-color: var(--buttonHover);
 }
 .tab button.active {
-  background-color: var(--background);
+  background-color: var(--buttonActive);
 }
 .tabcontent {
   display: none;
@@ -53,17 +54,25 @@ body {
   border-top: none;
 }
 #contentThumbnail {
-    box-shadow: 0.1em 0.1em 0.3em var(--primary-2);
-    margin: 0.1em; 
+    box-shadow: 0.1em 0.1em 0.5em 0.01em var(--primary-2);
+    margin: 0.3em; 
     padding: 0.5em;
-    width: 16%;
-    height: 9%;
+    width: 22.5em;
+    height: 14em;
     display: inline-block;
     border-radius: 1em;
     border-color: var(--promary-2);
 }
+#contentThumbnail:hover{
+    box-shadow: 0.1em 0.1em 0.5em 0.01em var(--buttonHover);
+    margin: 0.05em;
+    padding: 0.75em;
+}
 #contentThumbnail img {
-    margin: 0.2em;
-    margin-top: 1em; 
     width:100%;
+    border-radius: 0.5em;
+}
+#contentThumbnail p {
+    text-align: center;
+    margin: 0.1em;
 }

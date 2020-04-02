@@ -7,7 +7,7 @@
     <meta name="description" content="Tv Network Organizational Tool" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
   </head>
 
   <header></header>
@@ -15,10 +15,10 @@
   <body>
     <div id="contentContainer">
       <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Content')">
+        <button class="tablinks" onclick="openTab(event, 'Content')">
           Content
         </button>
-        <button class="tablinks" onclick="openCity(event, 'Comercial')">
+        <button class="tablinks" onclick="openTab(event, 'Comercial')">
           Comercial
         </button>
       </div>
@@ -41,10 +41,24 @@
             <p>Clickbait Thumbnails!</p>
           </div>
       </div>
-
+      
       <div id="Comercial" class="tabcontent">
-        <h3>Paris</h3>
-        <p>Paris is the capital of France.</p>
+        <div id="contentThumbnail">
+            <img src="https://www.mandatory.com/images/stories/2011/2012/May/Comedy/Mentos.png">
+            <p>Mentos Ad</p>
+          </div>
+          <div id="contentThumbnail">
+            <img src="https://laughingsquid.com/wp-content/uploads/2013/10/bud-light-ranch-a-commercial-parody-about-a-beer-flavored-ranch-salad-dressing.jpg">
+            <p>Bud Light Ranch Ad</p>
+          </div>
+          <div id="contentThumbnail">
+            <img src="https://assets3.thrillist.com/v1/image/2859844/size/gn-gift_guide_variable_c_2x.jpg">
+            <p>Mountain Dew Ad</p>
+          </div>
+          <div id="contentThumbnail">
+            <img src="https://theusbport.com/wp-content/uploads/2016/09/All-time-best-parody-Apple-ads-on-the-net-900x506.jpg">
+            <p>Apple Ad</p>
+          </div>
       </div>
     </div>
   </body>
