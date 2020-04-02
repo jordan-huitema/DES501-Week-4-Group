@@ -1,0 +1,15 @@
+/* Setting Colour Pattle Variables */
+:root {
+    --primary-1: #BC0A0F;
+    --promary-2: #201D1D;
+    --accent-1: #EDD256;
+    --accent-2: #EFC081;
+    --highlight-1: #EEDB86;
+    --background: #F8F5F2;
+
+    /* use example
+
+    background-color: var(--primary-1);
+
+    */
+}
